@@ -1,0 +1,7 @@
+opencv-python
+deepface
+torch
+torchvision
+diffusers
+Pillow
+streamlit
