@@ -1,6 +1,10 @@
 import cv2
 import numpy as np
-from tensorflow.keras.models import load_model
+try:
+    from tensorflow.keras.models import load_model
+except Exception:
+    # Fallback to standalone Keras if tensorflow.keras is not available
+    from keras.models import load_model
 
 # Load pretrained emotion detection model
 model = load_model('emotion_model.h5')
