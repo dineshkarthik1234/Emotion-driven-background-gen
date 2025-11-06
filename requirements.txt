@@ -1,6 +1,10 @@
 opencv-python-headless
+<<<<<<< HEAD
 streamlit
 tensorflow
+=======
+deepface
+>>>>>>> 93de591d367710aa978661cf9a0787a03882d16e
 torch
 diffusers
 Pillow
